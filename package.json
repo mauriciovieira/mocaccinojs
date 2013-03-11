@@ -4,7 +4,7 @@
   "description": "A light, fast and simple environment to javascript develop",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/**/*Spec.*"
   },
   "repository": {
     "type": "git",
