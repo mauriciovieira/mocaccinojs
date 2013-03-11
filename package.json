@@ -1,0 +1,22 @@
+{
+  "name": "mocaccinojs",
+  "version": "0.0.0",
+  "description": "A light, fast and simple environment to javascript develop",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/halan/mocaccinojs.git"
+  },
+  "keywords": [
+    "test",
+    "environment"
+  ],
+  "author": "Halan Pinheiro",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  }
+}
