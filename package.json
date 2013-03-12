@@ -4,7 +4,7 @@
   "description": "A light, fast and simple environment to javascript develop",
   "main": "app.js",
   "scripts": {
-    "test": "mocha test/**/*Spec.*"
+    "test": "mocha spec/**/*Spec.* --require spec/specHelper.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   "author": "Halan Pinheiro",
   "license": "BSD",
   "devDependencies": {
-    "mocha": "~1.8.2"
+    "mocha": "~1.8.2",
+    "chai": "~1.5.0"
   }
 }
