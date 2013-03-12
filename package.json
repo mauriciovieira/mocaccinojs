@@ -4,7 +4,7 @@
   "description": "A light, fast and simple environment to javascript develop",
   "main": "app.js",
   "scripts": {
-    "test": "mocha spec/**/*Spec.* --require spec/specHelper.js"
+    "test": "mocha spec/**/*Spec.* --require spec/specHelper.js -w -G"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "mocha": "~1.8.2",
     "chai": "~1.5.0",
     "connect": "~2.7.3",
-    "mincer": "~0.4.5"
+    "mincer": "~0.4.5",
+    "zombie": "~1.4.1"
   }
 }
